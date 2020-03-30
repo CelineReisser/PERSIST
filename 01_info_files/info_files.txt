@@ -1,0 +1,1 @@
+Place your reference genome, the GFF3, and the genome index (bwa index and samtools index) here
