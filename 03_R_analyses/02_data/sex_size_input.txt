@@ -1,4 +1,4 @@
-stock	site	pop	L	l	e	sex
+stock	site	ind	L	l	e	sex
 E	E1	1	12.3	13.1	2.8	I
 E	E1	2	12	11.1	2.8	M
 E	E1	3	13	11.4	2.8	M
