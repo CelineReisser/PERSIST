@@ -117,3 +117,5 @@ plot(-log(fst$qval,10),pch=20,frame=F,ylim=c(0,5),xlim=c(0,30000),ylab="-log(q-v
 abline(a=-log(0.05,10),b=0,col="red")
 dev.off()
 
+
+
