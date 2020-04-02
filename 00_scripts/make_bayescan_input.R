@@ -82,3 +82,4 @@ test$Allele_counts2<-sapply(test$Allele_counts2, gsub, pattern=",", replacement=
 
 pop2<-cbind(rownames(test),test$n*2,test$nAlleles,test$Allele_counts2)
 write.table(pop2,"06_bayescan/Natural_bayescan_input.txt",sep="\t",quote=F,row.names=F,col.names=F)
+
