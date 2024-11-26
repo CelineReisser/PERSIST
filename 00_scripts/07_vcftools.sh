@@ -11,5 +11,5 @@ VCFTOOLSENV=""
 $VCFTOOLSENV
 cd $WORKDIR
 
-vcftools --maf 0.01 --max-missing 0.9 --vcf $INDIR/DP10_SNP_PERSIST_freebayes_stringent.vcf --recode --out $INDIR/DP10_SNP_MAF0.01_miss0.1_PERSIST_freebayes_stringent &> 98_log_files/07_vcftools_out.txt
+vcftools --maf 0.1 --max-missing 0.9 --vcf $INDIR/DP10_SNP_PERSIST_freebayes_stringent.vcf --recode --out $INDIR/DP10_SNP_MAF0.01_miss0.1_PERSIST_freebayes_stringent &> 98_log_files/07_vcftools_out.txt
 
